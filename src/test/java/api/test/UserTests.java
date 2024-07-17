@@ -46,6 +46,7 @@ public class UserTests {
 		Assert.assertEquals(response.getStatusCode(), 200);
 		
 		logger.info("*********************** user is created Successfully **************************************");
+		System.out.println("satish gaware");
 	}
 	
 	@Test(priority=2)
